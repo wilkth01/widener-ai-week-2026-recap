@@ -106,7 +106,7 @@ section { padding: 64px 0; }
   gap: 32px; align-items: center;
   position: relative;
 }
-.index-hero-logo { height: 120px; width: auto; opacity: .92; }
+.index-hero-logo { height: 200px; width: auto; opacity: .92; }
 .hero-eyebrow-label {
   display: inline-block;
   font-size: 11px; font-weight: 700; letter-spacing: .12em;
