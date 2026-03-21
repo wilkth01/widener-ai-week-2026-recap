@@ -63,19 +63,21 @@ section { padding: 64px 0; }
 .header-inner {
   display: flex; align-items: center;
   justify-content: space-between; gap: 20px;
-  height: 62px;
+  height: 76px;
 }
-.logo-link { display: flex; align-items: center; gap: 10px; flex-shrink: 1; min-width: 0; }
+.logo-link { display: flex; align-items: center; gap: 12px; flex-shrink: 1; min-width: 0; }
+.logo-link img { height: 48px; width: auto; }
 .logo-text-block { min-width: 0; }
+
 .nav-toggle {
   display: none;
   background: none; border: 1px solid var(--border); border-radius: var(--radius);
   cursor: pointer; padding: 6px 10px; color: var(--navy);
   font-size: 1.25rem; line-height: 1; flex-shrink: 0;
 }
-.logo-link img { height: 36px; width: auto; }
-.logo-text-block .site-title { font-size: 13px; font-weight: 800; color: var(--navy); line-height: 1.2; }
-.logo-text-block .site-sub { font-size: 11px; color: var(--muted); }
+
+.logo-text-block .site-title { font-size: 16px; font-weight: 800; color: var(--navy); line-height: 1.2; }
+.logo-text-block .site-sub { font-size: 13px; color: var(--muted); }
 
 .site-nav ul { list-style: none; display: flex; gap: 2px; flex-wrap: wrap; }
 .site-nav a {
